@@ -1,0 +1,97 @@
+:root{
+    --primary: #0d4e96;
+    --white: #fff;
+    --gray: #f3f4f8;
+    --black: #ccc;
+}
+.bg-gray{
+    background-color: var(--gray) !important;
+}
+.bdt-3{
+    border-top: 3px solid var(--primary);
+}
+.bdb-1{
+    border-bottom: 1px solid var(--black);
+}
+body{
+    background-color: var(--gray) !important;
+}
+.text-justify{
+    text-align: justify;
+}
+.text-pri{
+    color: var(--primary);
+}
+.pd-2{
+    padding: 2rem;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.bold{
+    font-weight: bold;
+}
+.top-nav a{
+    color: var(--white);
+    border-right: 1px solid var(--white);
+    padding: 0 0.5rem;
+}
+.top-nav{
+    background: var(--primary);
+    padding: 0.5rem;
+}
+img{
+    width: 100%;
+}
+.menu a{
+    color: var(--primary);
+    font-size: 90%;
+    font-weight: bold;
+}
+.menu li{
+    margin-right: 0.5rem;
+}
+.flex{
+    display: flex;
+}
+.flex-y{
+    align-items: center;
+}
+.flag{
+    width: 2rem;
+    display: inline-block;
+    margin-left: 1rem;
+}
+.mx-10p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.px-10p{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.ps-10p{
+    padding-left: 10%;
+}
+.bg-pri{
+    background: var(--primary);
+}
+.my-btn{
+    padding: 1rem 2.3rem;
+}
+.between{
+    justify-content: space-between;
+}
+.mr-05{
+    margin-right: 0.5rem;
+}
+.main a{
+    font-size: 80%;
+}
